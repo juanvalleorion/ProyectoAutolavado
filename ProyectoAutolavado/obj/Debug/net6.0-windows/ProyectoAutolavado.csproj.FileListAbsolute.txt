@@ -25,3 +25,4 @@ C:\Users\juanv\OneDrive - TEC NM-IT SUR DE NAYARIT\Tec\Semestre 4\Programacion I
 C:\Users\juanv\OneDrive - TEC NM-IT SUR DE NAYARIT\Tec\Semestre 4\Programacion II\Proyecto\ProyectoAutolavado\ProyectoAutolavado\obj\Debug\net6.0-windows\ref\ProyectoAutolavado.dll
 C:\Users\juanv\OneDrive - TEC NM-IT SUR DE NAYARIT\Tec\Semestre 4\Programacion II\Proyecto\ProyectoAutolavado\ProyectoAutolavado\obj\Debug\net6.0-windows\ProyectoAutolavado.Login.resources
 C:\Users\juanv\OneDrive - TEC NM-IT SUR DE NAYARIT\Tec\Semestre 4\Programacion II\Proyecto\ProyectoAutolavado\ProyectoAutolavado\obj\Debug\net6.0-windows\ProyectoAutolavado.Properties.Resources.resources
+C:\Users\juanv\OneDrive - TEC NM-IT SUR DE NAYARIT\Tec\Semestre 4\Programacion II\Proyecto\ProyectoAutolavado\ProyectoAutolavado\bin\Debug\net6.0-windows\ProyectoAutolavado.dll.config
