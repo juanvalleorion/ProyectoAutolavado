@@ -12,11 +12,17 @@ namespace ProyectoAutolavado.Clases
     class Conexion
     {
         SqlConnection connet = new SqlConnection();
-
+        /*
         static string servidor = "tecproyecto.database.windows.net";
         static string bd = "Lavado_Juarez";
         static string usuario = "tec";
         static string password = "proyecto123@";
+        static string puerto = "1433";
+        */
+        static string servidor = "DESKTOP-02M9DT1";
+        static string bd = "Autolavado";
+        static string usuario = "sa";
+        static string password = "juanvalle";
         static string puerto = "1433";
 
         string cadenaConexion = "Data Source=" + servidor + "," + puerto + ";" + 
