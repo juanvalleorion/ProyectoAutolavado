@@ -44,7 +44,7 @@
             this.btn_Aceptar.TabIndex = 0;
             this.btn_Aceptar.Text = "Aceptar";
             this.btn_Aceptar.UseVisualStyleBackColor = true;
-            this.btn_Aceptar.Click += new System.EventHandler(this.button1_Click);
+            this.btn_Aceptar.Click += new System.EventHandler(this.btn_Aceptar_Click_1);
             // 
             // txt_Usuario
             // 
@@ -52,7 +52,6 @@
             this.txt_Usuario.Name = "txt_Usuario";
             this.txt_Usuario.Size = new System.Drawing.Size(162, 23);
             this.txt_Usuario.TabIndex = 1;
-            this.txt_Usuario.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label1
             // 
@@ -89,11 +88,12 @@
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Recuperar contraseña";
             // 
-            // Pantalla_Principal
+            // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(309, 263);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.txt_Password);
@@ -101,7 +101,9 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txt_Usuario);
             this.Controls.Add(this.btn_Aceptar);
-            this.Name = "Pantalla_Principal";
+            this.ImeMode = System.Windows.Forms.ImeMode.On;
+            this.Name = "Login";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -116,5 +118,6 @@
         private Label label2;
         private TextBox txt_Password;
         private LinkLabel linkLabel1;
+        private EventHandler btn_Aceptar_Click;
     }
 }
